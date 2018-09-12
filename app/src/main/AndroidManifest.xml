@@ -13,6 +13,8 @@
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait">
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".CountryActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,6 +27,7 @@
             android:screenOrientation="portrait">
 
         </activity>
+
     </application>
 
 </manifest>
