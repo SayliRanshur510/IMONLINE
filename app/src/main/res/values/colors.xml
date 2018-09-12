@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#154BAD</color>
+    <color name="colorPrimaryDark">#0c337a</color>
+    <color name="colorAccent">#154BAD</color>
+    <color name="colorRipple">#154BAD</color>
+    <color name="colorSplash">#1862bb</color>
+    <color name="colorCountryButtonBorder">#fcfaf2</color>
+    <color name="colorLoginBg">#f7fffc</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="buttonPressed">#72a2f9</color>
+    <color name="buttonNotPressed">#154BAD</color>
+    <color name="loginbg">#f1f5f8</color>
 </resources>
