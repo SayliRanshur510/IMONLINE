@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">IMONLINE</string>
+    <string name="app_label">Label</string>
+    <string name="search_hint">choose your country</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_country">CountryActivity</string>
 </resources>
