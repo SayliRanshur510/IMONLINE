@@ -4,15 +4,19 @@ package com.ingrammicro.inrans00.imonline;
  * Created by INRANS00 on 9/11/2018.
  */
 
-class Country {
-
-    private int mImageResourceId;
+class Country{
     private String mCountryName;
+    private String mCountryCode;
+    private int ImageResourceId;
 
-    public Country(int imageResourceId, String countryName){
 
-        mImageResourceId = imageResourceId;
-        mCountryName = countryName;
+    public Country(){
+
+    }
+    public Country(String countryName, String countryCode){
+         mCountryCode = countryCode;
+         mCountryName = countryName;
+
     }
 
     public String getmCountryName() {
@@ -23,12 +27,23 @@ class Country {
         this.mCountryName = mCountryName;
     }
 
-    public int getmImageResourceId() {
-        return mImageResourceId;
-
+    public String getmCountryCode() {
+        return mCountryCode;
     }
 
-    public void setmImageResourceId(int mImageResourceId) {
-        this.mImageResourceId = mImageResourceId;
+    public void setmCountryCode(String mCountryCode) {
+        this.mCountryCode = mCountryCode;
     }
+
+    public int getImageResourceId() {
+
+        return ImageResourceId;
+    }
+
+    public void setImageResourceId(int mImageResourceId) {
+        this.ImageResourceId = mImageResourceId;
+    }
+
+
+
 }
